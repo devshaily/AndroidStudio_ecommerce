@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.subbu.practiceapplication.MainActivity">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/pt" android:title="Patent"  android:icon="@drawable/ic_done_all_black_24dp" />
+
+        <item android:id="@+id/cl" android:title="Classical" android:icon="@drawable/ic_copyright_black_24dp"/>
+
+        <item android:id="@+id/cn" android:title="Consumer" android:icon="@drawable/ic_public_black_24dp" />
+
+        <item android:id="@+id/ca" android:title="Cart"  android:icon="@drawable/ic_add_shopping_cart_black_24dp"/>
+
+        <item android:id="@+id/cu" android:title="Contact Us" android:icon="@drawable/ic_call_black_24dp"/>
+
+        <item android:id="@+id/lo" android:title="Logout"  android:icon="@drawable/ic_keyboard_return_black_24dp"/>
+
+        <item android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        app:showAsAction="never" />
+
+    </group>
+</menu>
